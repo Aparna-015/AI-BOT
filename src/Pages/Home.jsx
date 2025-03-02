@@ -39,6 +39,7 @@ const Home = () => {
     setInput("");
     let result = await generateResponse();
     setShowresult(result);
+    console.log(result);
     // setFeature('chat')
     user.data = null;
     user.mime_type = null;
